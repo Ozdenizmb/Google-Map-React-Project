@@ -1,0 +1,107 @@
+:root {
+  /* --------------------------- Fonts --------------------------- */
+
+  --font-roboto-regular: 'Roboto', sans-serif;
+  --font-roboto-bold: 'Roboto Bold', sans-serif;
+
+  --font-open-sans-regular: 'Open Sans', sans-serif;
+  --font-open-sans-bold: 'Open Sans Bold', sans-serif;
+
+  --font-lato-regular: 'Lato', sans-serif;
+  --font-lato-bold: 'Lato Bold', sans-serif;
+
+  --font-raleway-regular: 'Raleway', sans-serif;
+  --font-raleway-bold: 'Raleway Bold', sans-serif;
+
+  /* --------------------------- Colors --------------------------- */
+
+  /* Red Shades */
+  --dark-red-1: #7d0000;
+  --dark-red-2: #8a0000;
+  --light-red-1: #ff6666;
+  --light-red-2: #ff7a7a;
+
+  /* Green Shades */
+  --dark-green-1: #004d00;
+  --dark-green-2: #006100;
+  --light-green-1: #66ff66;
+  --light-green-2: #7aff7a;
+
+  /* Pink Shades */
+  --dark-pink-1: #e60073;
+  --dark-pink-2: #e60080;
+  --light-pink-1: #ff66a3;
+  --light-pink-2: #ff7ab3;
+
+  /* Purple Shades */
+  --dark-purple-1: #4d004d;
+  --dark-purple-2: #610061;
+  --light-purple-1: #b366cc;
+  --light-purple-2: #c17ad1;
+
+  /* Black Shades */
+  --dark-black-1: #1a1a1a;
+  --dark-black-2: #333333;
+  --light-black-1: #b3b3b3;
+  --light-black-2: #bfbfbf;
+
+  /* Gray Shades */
+  --dark-gray-1: #4d4d4d;
+  --dark-gray-2: #616161;
+  --light-gray-1: #d9d9d9;
+  --light-gray-2: #e0e0e0;
+
+  /* Blue Shades */
+  --dark-blue-1: #00007d;
+  --dark-blue-2: #00008a;
+  --light-blue-1: #6666ff;
+  --light-blue-2: #7a7aff;
+
+  /* Navy Shades */
+  --dark-navy-1: #00194d;
+  --dark-navy-2: #002361;
+  --light-navy-1: #6666b3;
+  --light-navy-2: #7a7ac1;
+
+  /* Yellow Shades */
+  --dark-yellow-1: #b38600;
+  --dark-yellow-2: #cc9900;
+  --light-yellow-1: #ffe066;
+  --light-yellow-2: #ffe47a;
+
+  /* Turquoise Shades */
+  --dark-turquoise-1: #339966;
+  --dark-turquoise-2: #33a377;
+  --light-turquoise-1: #99e6cc;
+  --light-turquoise-2: #a3ebd9;
+
+  /* Orange Shades */
+  --dark-orange-1: #cc5200;
+  --dark-orange-2: #d46100;
+  --light-orange-1: #ffad66;
+  --light-orange-2: #ffba7a;
+
+  /* --------------------------- Specialty Colors --------------------------- */
+
+  /* Gold Tones */
+  --gold-1: #ccac00;
+  --gold-2: #d4b800;
+
+  /* Silver Tones */
+  --silver-1: #c0c0c0;
+  --silver-2: #cccccc;
+
+  /* Platinum Tones */
+  --platinum-1: #e0e0e0;
+  --platinum-2: #e5e5e5;
+
+  /* Bronze Tones */
+  --bronze-1: #b36b1e;
+  --bronze-2: #bd7926;
+
+  /* Wood Tones */
+  --wood-1: #8b4513;
+  --wood-2: #9e550d;
+
+  --white: #fafafa;
+}

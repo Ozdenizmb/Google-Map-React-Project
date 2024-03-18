@@ -1,0 +1,53 @@
+:root {
+    --primary: #0d6efd;
+}
+
+.advert-card {
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 40px rgba(52, 58, 64, 0.1);
+
+    position: relative;
+    bottom: 0px;
+    transition: all .6s;
+}
+
+.advert-card:hover {
+    bottom: 10px;
+}
+
+.card_padding {
+    padding: 10px;
+}
+
+.advert-card.card_body {
+    padding: 30px;
+}
+
+.topbar_buttons {
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+    line-height: 1;
+}
+
+.topbar_buttons:hover {
+    border-bottom-color: var(--primary);
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: width 0.3s ease-out; /* Geçiş süresi ve hareket tipi */
+}

@@ -1,0 +1,38 @@
+.ps-8 {
+  padding-left: 8rem !important;
+  
+}
+
+
+.footer-underline:hover {
+  color: #007bff !important;
+  text-decoration: underline;
+
+}
+
+.footer {
+  background-color: black; 
+  color: #ffffff;
+  
+}
+
+
+.footer :hover {
+  text-decoration: none; 
+}
+.list-unstyled li {
+  transition: transform 0.3s ease;
+  margin-bottom: 8px;
+}
+
+.list-unstyled li:hover {
+  transform: translateX(5px); 
+}
+.footer a {
+  color: lightslategrey;
+  
+}
+
+.footer .row {
+  --bs-gutter-x: 0rem;
+}
